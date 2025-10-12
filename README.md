@@ -3,6 +3,7 @@
 AI-powered document parsing and Q&A system that extracts, understands, and delivers precise answers from your documents — with citations and zero hallucinations.
 
 
+
 🚀 Why LLM-Document-Parser?
 
 In enterprises today, 80% of data lives in unstructured documents (contracts, reports, policies). Generic LLMs hallucinate when asked about such documents, wasting hours and risking compliance errors.
@@ -11,6 +12,7 @@ Grounded Answers: Only uses your documents as the knowledge base.
 Citations Included: Every answer links back to source document/page/clause.
 API-First Design: Plug into CRMs, dashboards, and compliance tools.
 Scalable Architecture: Bun + TypeScript backend + Python core worker + Vector DB.
+
 
 
 ✨ Features
@@ -22,6 +24,7 @@ Scalable Architecture: Bun + TypeScript backend + Python core worker + Vector DB
 ✅ API endpoints – Seamless integration into enterprise tools
 ✅ Customizable prompts – Domain-aware tone & safe fallback behavior
 ✅ Enterprise-ready – On-prem/cloud deployment, encryption, logs
+
 
 
 🏗️ System Architecture
@@ -38,6 +41,7 @@ flowchart LR
 One API → Infinite integrations.
 
 
+
 📦 Tech Stack
 
 Backend API: Bun
@@ -48,10 +52,12 @@ LLMs: OpenAI, Anthropic, or open-source (Ollama, Llama 3)
 Storage: S3 / MinIO (document storage, metadata)
 
 
+
 ⚙️ Installation & Setup
 1️⃣ Clone repo
 git clone https://github.com/yourusername/LLM-Document-Parser.git
 cd LLM-Document-Parser
+
 
 
 2️⃣ Backend API (Bun + TS)
@@ -60,12 +66,14 @@ bun install
 bun run dev
 
 
+
 3️⃣ Core Worker (Python)
 cd core
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python worker.py
+
 
 
 4️⃣ Environment variables
@@ -77,10 +85,12 @@ VECTOR_DB_URL=your_vector_db
 STORAGE_BUCKET=your_bucket
 
 
+
 📊 Business & Revenue Model
 
 SaaS API: Subscription tiers (Basic, Pro, Enterprise)
 Professional Services: Custom integration + workflow automation
+
 
 
 🤝 Contributing
@@ -92,9 +102,11 @@ Push (git push origin feature/xyz)
 Open PR 
 
 
+
 🛡️ License
 MIT License
  — Free for personal & commercial use with attribution.
+
 
 
 🌟 Acknowledgements
