@@ -6,6 +6,7 @@ import type { UploadApiResponse } from "cloudinary";
 import { connectRabbitMQ } from "../helper";
 import { QuerySchema } from "../schema/querySchema";
 
+// Handle file upload and processing
 export async function query(req: Request, res: Response) {
   if (!req.file?.path) {
     return res.status(400).json({ success: false, message: "file not exist" });
