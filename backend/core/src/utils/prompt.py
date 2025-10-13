@@ -1,5 +1,5 @@
 from langchain.prompts import ChatPromptTemplate
-
+#prompt for the output
 prompt = ChatPromptTemplate.from_template(
     """
 You are an expert Document Analysis AI specialized in interpreting insurance policy documents. Your job is to process an input query and output a structured JSON object with a clear decision, based on the policy clauses.
