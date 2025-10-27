@@ -1,3 +1,5 @@
+## Core Service
+
 Create a virtual environment: `python -m venv .venv`
 Activate the environment:
   `.venv\Scripts\activate`
