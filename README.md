@@ -80,6 +80,9 @@ This modular structure ensures **speed, flexibility, and easy enhancement**, all
 
 ## 🔮 Future Scope
 
+- **🎙️ Image analsis Integration:**  
+  Implement *image summarization* and advanced analysis.
+
 - **🎙️ Audio Integration:**  
   Add *speech-to-text (Whisper)* to parse and query meeting recordings or podcasts.
 
